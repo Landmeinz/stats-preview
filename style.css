@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 0;
+    height: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 720px;
+}
+
+.main-container {
+    border: solid rgba(200, 0, 0, .5);
+    width: 1080px;
+    height: 445px;
+    margin: 10%;
+    display: flex;
+}
+
+.content-image {
+    width: 50%;
+    background-color: lightgreen;
+}
+
+.content-text {
+    width: 50%;
+    background-color: lightgray;
+    justify-content: center;
+    align-content: center;
+    margin: 5%;
+}
+
+.content-info {
+    border: solid rgba(0, 0, 0, .5);
+    background-color: lightpink;
+    margin: 20% 5% 0% 5%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.companies {
+    border: solid rgba(0, 0, 0, .5);
+}
+
+.templates {
+    border: solid rgba(0, 0, 0, .5);
+}
+
+.queries {
+    border: solid rgba(0, 0, 0, .5);
+}
+
+h3 {
+    font-size: 1.85rem;
+    padding: 5% 5% 0 5%;
+    text-align: justify;
+}
+
+h4 {
+    font-size: 1.25rem;
+    padding: 3%;
+}
+
+p {
+    font-size: 1rem;
+    text-align: justify;
+    padding: 5% 5% 0 5%;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
