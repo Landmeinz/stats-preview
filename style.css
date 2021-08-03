@@ -37,7 +37,7 @@ html, body {
 }
 
 .content-image {
-    background-image: url(https://github.com/Landmeinz/stats-preview/blob/373de8c8b75af0b9e98804c8560a3dce6e939547/image-header-desktop.jpg);
+    background-image: url("https://github.com/Landmeinz/stats-preview/blob/373de8c8b75af0b9e98804c8560a3dce6e939547/image-header-desktop.jpg");
     background-color: var(--main-accent-overlay);
     background-blend-mode: overlay;
     filter: contrast(80%);
