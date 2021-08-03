@@ -37,7 +37,7 @@ html, body {
 }
 
 .content-image {
-    background-image: url(images/image-header-desktop.jpg);
+    background-image: url(image-header-desktop.jpg);
     background-color: var(--main-accent-overlay);
     background-blend-mode: overlay;
     filter: contrast(80%);
